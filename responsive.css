@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     .container-fluid {
-        width: 320px;
+        width: auto;
     }
 
     .col-1 {
@@ -120,7 +120,6 @@
 
     .link-container {
         display: none;
-        padding-left: 20px;
     }
 
     .gg-logo {
@@ -131,6 +130,8 @@
 
     .second {
         flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .hamburger-menu {
