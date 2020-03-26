@@ -1,8 +1,6 @@
 @media (max-width: 575.98px) {
     .container-fluid {
-        width: auto;
-        max-width: 480px;
-        min-width: 320px;
+        width: 320px;
     }
 
     .col-1 {
@@ -122,6 +120,7 @@
 
     .link-container {
         display: none;
+        padding-left: 20px;
     }
 
     .gg-logo {
@@ -344,7 +343,7 @@
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .basket-container {
         justify-content: flex-end;
     }
