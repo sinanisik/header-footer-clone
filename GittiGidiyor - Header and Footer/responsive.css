@@ -1,0 +1,680 @@
+@media (max-width: 575.98px) {
+    .container-fluid {
+        width: auto;
+        max-width: 450px;
+    }
+
+    .col-1 {
+        width: 8.333333%;
+    }
+
+    .col-2 {
+        width: 16.666667%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.333333%;
+    }
+
+    .col-5 {
+        width: 41.666667%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.333333%;
+    }
+
+    .col-8 {
+        width: 66.666667%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.333333%;
+    }
+
+    .col-11 {
+        width: 91.666667%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .info, .footerLinks, .mobile {
+        display: none;
+    }
+
+    .row:nth-child(1) {
+        justify-content: center;
+    }
+
+    .images {
+        padding: 20px 0;
+    }
+
+    .img-div {
+        /*        justify-content: center;*/
+    }
+
+    .follow-center {
+        display: block;
+    }
+
+    .followText {
+        text-align: center;
+    }
+
+    .social {
+        flex-wrap: wrap;
+    }
+
+    .social div {
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .guvenText {
+        display: none;
+    }
+
+    .guven-damgasi {
+        justify-content: center;
+    }
+
+    .guven-div {
+        justify-content: center;
+    }
+
+    .copy-block {
+        display: block;
+    }
+
+    .copy-center {
+        text-align: center;
+    }
+
+    .copyright-links {
+        text-align: center;
+    }
+
+    .countriesContainer {
+        display: none;
+    }
+
+    /*    ////////////////////////////////  */
+
+    .link-container {
+        display: none;
+    }
+
+    .gg-logo {
+        height: 37px;
+        width: 119px;
+        background-size: 100%;
+    }
+
+    .second {
+        flex-wrap: wrap;
+    }
+
+    .hamburger-menu {
+        margin-top: 10px;
+        margin-right: 5px;
+        width: 26px;
+        height: 26px;
+        background: url(https://www.gittigidiyor.com/fred/framework/assets/img/core/mobile/hamburger_mega_menu.svg) no-repeat;
+    }
+
+    .logo-container {
+        display: flex;
+    }
+
+    .hidden-m {
+        display: none;
+    }
+
+    .profile-container {
+        display: flex;
+    }
+
+    .profile-icon {
+        order:2;
+    }
+
+    .profile-name {
+        font-size: 12px;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    .search-cont {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .icon-cont {
+        order: 2;
+    }
+
+    .profile-container {
+        justify-content: flex-end;
+    }
+
+    .basket-container {
+        justify-content: flex-end;
+    }
+
+    .header-arrow-down {
+        display: none;
+    }
+
+}
+
+/* ///////////////////////    576px    //////////////////////// */    
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+
+    .container-fluid {
+        width: 540px;
+    }
+
+    .col-sm-1 {
+        width: 8.333333%;
+    }
+
+    .col-sm-2 {
+        width: 16.666667%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.333333%;
+    }
+
+    .col-sm-5 {
+        width: 41.666667%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.333333%;
+    }
+
+    .col-sm-8 {
+        width: 66.666667%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.333333%;
+    }
+
+    .col-sm-11 {
+        width: 91.666667%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .info, .footerLinks, .mobile {
+        display: none;
+    }
+
+    .row:nth-child(1) {
+        justify-content: center;
+    }
+
+    .images {
+        padding: 20px 0;
+    }
+
+    .follow-center {
+        display: block;
+    }
+
+    .followText {
+        text-align: center;
+    }
+
+    .social {
+        flex-wrap: wrap;
+    }
+
+    .guvenText {
+        display: none;
+    }
+
+    .guven-damgasi {
+        justify-content: center;
+    }
+
+    .guven-div {
+        justify-content: center;
+    }
+
+    .copy-block {
+        display: block;
+    }
+
+    .copyright-bottom {
+        justify-content: center;
+    }
+
+    .copy-center {
+        text-align: center;
+    }
+
+    .copyright-links {
+        text-align: center;
+    }
+
+    .countriesContainer {
+        display: none;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social div {
+        margin-top: 20px;
+    }
+
+    /*    ///////////////////////////////////// */
+
+    .link-container {
+        display: none;
+    }
+
+    .gg-logo {
+        height: 37px;
+        width: 119px;
+        background-size: 100%;
+    }
+
+    .second {
+        flex-wrap: wrap;
+    }
+
+    .hamburger-menu {
+        margin-top: 10px;
+        margin-right: 5px;
+        width: 26px;
+        height: 26px;
+        background: url(https://www.gittigidiyor.com/fred/framework/assets/img/core/mobile/hamburger_mega_menu.svg) no-repeat;
+    }
+
+    .logo-container {
+        display: flex;
+    }
+
+    .hidden-m {
+        display: none;
+    }
+
+    .profile-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .basket-container {
+        justify-content: flex-end;
+    }
+
+    .profile-icon {
+        order:2;
+    }
+
+    .profile-name {
+        font-size: 12px;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    .search-cont {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .icon-cont {
+        order: 2;
+    }
+
+    .header-arrow-down {
+        display: none;
+    }
+}
+
+/* ///////////////////////    768px    //////////////////////// */    
+
+@media (min-width: 768px) and (max-width: 991.98px)  {
+
+    .container-fluid{
+        width: 720px;
+    }
+
+    .col-md-1 {
+        width: 8.333333%;
+    }
+
+    .col-md-2 {
+        width: 16.666667%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.333333%;
+    }
+
+    .col-md-5 {
+        width: 41.666667%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.333333%;
+    }
+
+    .col-md-8 {
+        width: 66.666667%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.333333%;
+    }
+
+    .col-md-11 {
+        width: 91.666667%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .apps {
+        margin-left: 30px;
+    }
+
+    .copyright-text {
+        padding: 20px 0;
+    }
+
+    .copyright-links {
+        margin-left: -30px;
+    }
+
+    .guvenLogo {
+        height: 40px;
+    }
+
+    .guven {
+        font-size: 14px;
+    }
+
+    .guvenText {
+        font-size: 10px;
+    }
+
+    .links-margin {
+        margin-right: 10px;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-div {
+        flex-direction: column;
+    }
+
+    .countriesContainer {
+        padding-top: 20px;
+    }
+
+    /*    ////////////////////////////////////////// */
+
+    .link-container {
+        display: none;
+    }
+
+    .second {
+        flex-wrap: wrap;
+    }
+
+    .hamburger-menu {
+        margin-top: 5px;
+        margin-right: 20px;
+        width: 26px;
+        height: 26px;
+        background: url(https://www.gittigidiyor.com/fred/framework/assets/img/core/mobile/hamburger_mega_menu.svg) no-repeat;
+    }
+
+    .logo-container {
+        display: flex;
+    }
+
+    .search-container {
+        height: 60px;
+    }
+
+    .icon-cont {
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .gg-logo {
+        width: 170px;
+        height: 60px;
+        background-size: 100%;
+    }
+
+    .header-arrow-down {
+        display: none;
+    }
+
+    .profile-container {
+    }
+}
+
+/* //////////////////////     980px   ///////////////////////// */    
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-fluid {
+        width: 960px;
+    }
+
+    .col-lg-1 {
+        width: 8.333333%;
+    }
+
+    .col-lg-2 {
+        width: 16.666667%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.333333%;
+    }
+
+    .col-lg-5 {
+        width: 41.666667%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.333333%;
+    }
+
+    .col-lg-8 {
+        width: 66.666667%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.333333%;
+    }
+
+    .col-lg-11 {
+        width: 91.666667%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .images {
+
+    }
+
+    .social div {
+        margin-left: 20px;
+    }
+
+    .mobile-apps p {
+        text-align: left;
+    }
+
+    .copyright-links {
+        margin-left: -40px;
+    }
+
+    .countriesContainer {
+        padding-top: 20px;
+    }
+
+    /*    /////////////////////////////////////////////////    */
+
+}
+
+/* //////////////////////     1200px  ///////////////////////// */    
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        width: 1140px;
+    }
+
+    .col-xl-1 {
+        width: 8.333333%;
+    }
+
+    .col-xl-2 {
+        width: 16.666667%;
+    }
+
+    .col-xl-3 {
+        width: 25%;
+    }
+
+    .col-xl-4 {
+        width: 33.333333%;
+    }
+
+    .col-xl-5 {
+        width: 41.666667%;
+    }
+
+    .col-xl-6 {
+        width: 50%;
+    }
+
+    .col-xl-7 {
+        width: 58.333333%;
+    }
+
+    .col-xl-8 {
+        width: 66.666667%;
+    }
+
+    .col-xl-9 {
+        width: 75%;
+    }
+
+    .col-xl-10 {
+        width: 83.333333%;
+    }
+
+    .col-xl-11 {
+        width: 91.666667%;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+    }
+
+    .mobile-apps p {
+        text-align: end;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .follow {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+
+    .mobile {
+        padding-top: 10px;
+    }
+
+    .copyright-bottom {
+        position: relative;
+    }
+    .countriesContainer {
+        position: absolute;
+        top: -80px;
+        right: 0;
+    }
+
+    .copyright-bottom {
+        text-align: center;
+    }
+}

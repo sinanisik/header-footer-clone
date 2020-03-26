@@ -1,0 +1,382 @@
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, Arial;
+}
+
+*:focus {
+    outline: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* -------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------- */
+
+header {
+    margin: 20px 0;
+}
+
+main {
+    height: 200px;
+    background-color: #eee;
+}
+
+/* -------------------------------------- */
+/* HEADER */
+/* -------------------------------------- */
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container {
+    font-size: 12px;
+    background-color: #fff;
+    color: #333;
+    line-height: 14px;   
+    justify-content: center;
+}
+
+/* /////////////////////////////////////////////////////// */
+
+.second {
+    align-items: center;
+}
+
+.logo-container {
+    order: 1;
+}
+
+.icon-cont {
+    order: 3;
+}
+
+.search-cont {
+    order: 2;
+}
+
+.gg-logo {
+    background: url(https://www.gittigidiyor.com/fred/page-based/header/svg/gg-logo.svg) no-repeat;
+    width: 205px;
+    height: 75px;
+    display: flex;
+}
+
+.search-container {
+    border: 2px solid #0a59f8;
+    border-radius: 6px;
+    height: 50px;
+    order: 2;
+}
+
+#textSearch_input {
+    display: flex;
+    width: 100%;
+}
+
+.search-icon {
+    align-self: center;
+    margin-left: 15px;
+    color: rgb(196, 196, 196);
+}
+
+#search_word {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    background: 0;
+    height: 100%;
+    padding-left: 10px;
+} 
+
+#textSearch_ara {
+    display: flex;
+    justify-content: center;
+    background-color: #0a59f8;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+}
+
+.search_blue_button {
+    align-self: center;
+    color: #fff;
+}
+
+.icon-container {
+    justify-content: flex-end;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+.profile-container {
+    display: flex;
+}
+
+.profile-icon, .basket-icon {
+    align-self: center;
+}
+
+.basket-name {
+    color: #444444;
+    align-self: center;
+    padding-left: 5px;
+}
+
+.profile-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-name {
+    color: #444444;
+    font-size: 14px;
+}
+
+.profile-name-spot {
+    color: #444444;
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.profile-title {
+    margin-left: 10px;
+}
+
+.header-arrow-down { 
+    float: left;
+    width: 0px;
+    height: 0px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #333;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+.basket-container {
+    display: flex;
+}
+
+.basket-name {
+    font-size: 14px;
+}
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+
+footer {
+    font-size: 12px;
+    background-color: #fff;
+    font-family: Roboto, Arial;
+    color: #333;
+    line-height: 18px;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    /*    padding-left: 1em;*/
+}
+
+.first {
+    padding-left: 1em;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-style: normal;
+    color: #333;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    border-right: 1px solid #ddd;
+    padding: 10px 30px 0 0;
+    text-align: justify;
+}
+
+.img-div {
+    display: flex;   
+    justify-content: space-around;
+}
+
+.footerLinks {
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+.links {
+    padding: 15px 0;
+    padding-right: 1em;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.followUs {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.social {
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.gg-icon-blog-circle {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.follow img {
+    height: 45px;
+}
+
+.mobile-apps {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.apps {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.guven-damgasi {
+    border-bottom: 1px solid #ddd;
+}
+
+.guven-div {
+    padding: 15px;
+    display: flex;
+}
+
+.guven {
+    color: #00a8e7;
+    font-size: 16px;
+    font-weight: 600;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.guvenText {
+    align-self: center;
+    padding-left: 30px;
+}
+
+.copyright-text{
+    padding: 20px 0;
+    align-self: center;
+}
+
+.countriesContainer {
+    padding: 10px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.ebayTitle {
+    align-self: center;
+    padding-right: 20px;
+}
+
+.copyright {
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+.copyright:visited,
+.copyright:link {
+    color: #0654ba;
+}
+
+.copyright a {
+    padding: 3px;
+}
+
+.other-countries {
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding-right: 10px;
+    color: #767676;
+    float: left;
+}
+
+.flag {
+    float: left;
+}
+
+.other-countries p {
+    float: left;
+    margin: 11px 15px;
+}
+
+.turkey-flag{
+    background: url(https://www.gittigidiyor.com/fred/page-based/home-page/svg/tr-flag.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin: 8px 10px;
+}
+
+.arrow-down { 
+    float: left;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #333;
+    margin-top: 18px;
+}
+
