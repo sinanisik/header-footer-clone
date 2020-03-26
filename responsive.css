@@ -1,7 +1,8 @@
 @media (max-width: 575.98px) {
     .container-fluid {
         width: auto;
-        max-width: 450px;
+        max-width: 480px;
+        min-width: 320px;
     }
 
     .col-1 {
