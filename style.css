@@ -77,13 +77,15 @@ main {
 }
 
 .search-container {
-    border: 2px solid #0a59f8;
-    border-radius: 6px;
-    height: 50px;
     order: 2;
 }
 
 #textSearch_input {
+    border: 2px solid #0a59f8;
+    border-right: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 50px;
     display: flex;
     width: 100%;
 }
@@ -108,15 +110,36 @@ main {
     display: flex;
     justify-content: center;
     background-color: #0a59f8;
-    border-radius: 3px;
+    border: none;
+    border-radius: 6px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     cursor: pointer;
 }
 
-.search_blue_button {
-    align-self: center;
+#textSearch_ara:hover {
+    background-color: #053594;
+}
+
+/*
+#textSearch_ara:hover #textSearch_input {
+background-color: #053594;
+}
+*/
+
+#textSearch_ara span {
     color: #fff;
+    font-size: 16px;
+}
+
+.reset-icon {
+    width: 14px;
+    height: 12px;
+    cursor: pointer;
+    background: url(https://www.gittigidiyor.com/fred/framework/assets/svg/search-remove-hover.svg);
+    background-size: 12px;
+    align-self: center;
+    margin-right: 30px;
 }
 
 .icon-container {

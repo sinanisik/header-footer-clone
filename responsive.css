@@ -184,6 +184,12 @@
     .header-arrow-down {
         display: none;
     }
+    
+    .reset-icon {
+        width: 21px;
+        height: 16px;
+        background-size: 16px;
+    }
 
 }
 
@@ -371,6 +377,12 @@
     .header-arrow-down {
         display: none;
     }
+    
+     .reset-icon {
+        width: 20px;
+        height: 16px;
+        background-size: 16px;
+    }
 }
 
 /* ///////////////////////    768px    //////////////////////// */    
@@ -493,7 +505,7 @@
     }
 
     .search-container {
-        height: 60px;
+/*        height: 60px;*/
     }
 
     .icon-cont {
@@ -592,6 +604,12 @@
     }
 
     /*    /////////////////////////////////////////////////    */
+    
+     .reset-icon {
+        width: 16px;
+        height: 12px;
+        background-size: 12px;
+    }
 
 }
 
@@ -653,6 +671,8 @@
     .mobile-apps p {
         text-align: end;
     }
+    
+   
 
 }
 
