@@ -133,6 +133,7 @@ background-color: #053594;
 }
 
 .reset-icon {
+    display: none;
     width: 14px;
     height: 12px;
     cursor: pointer;
