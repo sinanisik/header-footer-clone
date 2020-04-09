@@ -1,6 +1,7 @@
 /* -------------------------------------- */
 /* BASIC SETUP */
 /* -------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -80,7 +81,7 @@ main {
     order: 2;
 }
 
-#textSearch_input {
+.textSearch_input {
     border: 2px solid #0a59f8;
     border-right: none;
     border-top-left-radius: 6px;
@@ -106,7 +107,7 @@ main {
     padding-left: 10px;
 } 
 
-#textSearch_ara {
+.textSearch_ara {
     display: flex;
     justify-content: center;
     background-color: #0a59f8;
@@ -117,7 +118,7 @@ main {
     cursor: pointer;
 }
 
-#textSearch_ara:hover {
+.textSearch_ara:hover {
     background-color: #053594;
 }
 
@@ -127,7 +128,7 @@ background-color: #053594;
 }
 */
 
-#textSearch_ara span {
+.textSearch_ara span {
     color: #fff;
     font-size: 16px;
 }
@@ -141,6 +142,41 @@ background-color: #053594;
     background-size: 12px;
     align-self: center;
     margin-right: 30px;
+}
+
+/*Search Panel*/
+
+.searchbox-focused {
+    border: none;
+}
+
+.btn-focused {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-container-focused {
+    border: 1px solid #ddd;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px;
+}
+
+.search-panel {
+/*    background-color: gainsboro;*/
+    display: none;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.search-panel > div {
+    padding: 5px;
+}
+
+.search-panel > div:hover {
+    background-color: #ddd;
 }
 
 .icon-container {

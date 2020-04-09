@@ -4,18 +4,14 @@ $(document).ready(function() {
         alert("Girilen:" + str);
     });
 
-    $("#textSearch_input").each(function() {
+    $(".textSearch_input").each(function() {
 
         var $x = $(this).find(".search-icon"),
             $inp = $(this).find("input:text"),
             $cle = $(this).find(".reset-icon");
 
-        $x.mouseover(function() {
-            console.log("bastın"); 
-        });
-
-        $inp.mouseover(function() {
-            console.log("bassss"); 
+        $inp.click(function() {
+            //            $inp.addClass();
         });
 
         $inp.on("input", function(){
@@ -29,6 +25,23 @@ $(document).ready(function() {
 
     });
 
+    $('.textSearch_input').click(function() {
+
+        $(this).css('border', 'none');
+        $('.textSearch_ara').addClass('btn-focused');
+        $('.search-container').addClass('search-container-focused');
+        $('.search-panel').css('display', 'block');
+
+    });
+
+
+
+
+    //    $('#search_word').focusin(function() {
+    //       $('#textSearch_input').css("border", "none");
+    //    });
+
 });
+
 
 
