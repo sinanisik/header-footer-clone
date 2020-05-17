@@ -91,6 +91,10 @@ main {
     width: 100%;
 }
 
+.textSearch_input_focused {
+    border: none;
+}
+
 .search-icon {
     align-self: center;
     margin-left: 15px;
@@ -164,7 +168,7 @@ background-color: #053594;
 
 .search-panel {
 /*    background-color: gainsboro;*/
-    display: none;
+/*    display: none;*/
     border: 1px solid #ddd;
     border-top: none;
     border-bottom-left-radius: 6px;
